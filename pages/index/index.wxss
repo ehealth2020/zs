@@ -1,0 +1,26 @@
+.header{
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: green;
+}
+.text-all{
+  font-size:20px;
+}
+.content{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.content-item{
+  height: 300rpx;
+  width: 45%;
+  background-color: honeydew;
+  margin: 6px;
+
+}
+
+.content-item image{
+  width:100% ;
+  height:100%;
+}

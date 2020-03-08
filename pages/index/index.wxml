@@ -1,0 +1,46 @@
+<view class="container">
+
+  <view class="selection">
+    <swiper indicator-dots="true"
+       autoplay="true" interval="3000" duration="1000" bindchange="2000">
+       <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="375" height="667"/>  
+
+        </swiper-item>
+     </block>
+    </swiper>
+  </view>
+
+  <view class="selection">
+
+     <view class="header">
+         <text class="text-all">居民健康状况调查</text>
+
+     </view >
+
+     <view class="content">
+         <view class="content-item">
+           <image src="../../image/1.jpg"/>
+
+         </view>
+
+         <view class="content-item">
+            <image src="../../image/2.jpg"/>
+         </view>
+
+        <view class="content-item">
+            <image src="../../image/3.jpg"/>
+        </view>
+
+        <view class="content-item">
+            <image src="../../image/4.jpg"/>
+        </view>
+
+           
+
+     </view>
+
+  </view>
+
+</view>
